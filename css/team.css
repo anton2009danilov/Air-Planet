@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Roboto-bold;
+    src: url(/fonts/roboto-bold.ttf)
+}
+.header {
+    width: 1100;
+    height: 77;
+    background-color: #1c5bc3;
+}
+.header__logo {
+    float: left;
+    padding-top: 21px;
+    padding-bottom: 19px;
+    padding-left: 20px;
+}
+.header__info {
+    text-align: right;
+    font-family: Roboto-bold;
+}
+.header__phone {
+    color: #ffffff;
+    font-size: 21px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+.header__schedule {
+    color: #ced7ee;
+    font-size: 14px;
+    text-decoration: underline;
+    padding-right: 21px;
+    padding-bottom: 12px;
+}
+.navigation {
+    float: left;
+}
+.navigation a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: #1c5bc3;
+}
+.navigation a:active {
+    text-decoration: none;
+    color: #4B2424;
+}
+.navigation__teamLink a {
+    color: #221f1f;
+}
+
+.navigation__mainLink {
+    list-style-image: url(/img/main_icon.png);
+}
+.navigation__teamLink {
+    list-style-image: url(/img/team_iconActive.png);
+}
+.navigation__feedLink {
+    list-style-image: url(/img/feed_icon.png);
+}
+.main {
+    width: 868;
+    height: 954;
+    margin-left: 135px;
+}
