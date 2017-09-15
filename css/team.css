@@ -1,4 +1,8 @@
 
+.wrapper {
+    max-width: 1100px;
+    margin: auto;
+}
 .header {
     width: 1100px;
     height: 76;
@@ -23,21 +27,26 @@
     padding-bottom: 4px;
 }
 .header__schedule {
-    color: #ced7ee;
+    color: #86A4EE;
     font-size: 14px;
     text-decoration: underline;
     padding-right: 21px;
     padding-bottom: 12px;
 }
+.header__hours{
+    color: #ffffff;
+}
 .navigation {
     float: left;
+    height: 19px;
+    list-style: none;
 }
 .navigation__name {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 2.4px;       
+    letter-spacing: 2.4px;
 }
 .navigation a:link, a:visited, a:hover {
     text-decoration: none;
@@ -50,7 +59,12 @@
 .navigation__teamLink a {
     color: #221f1f;
 }
-
+/* .navigation__item {
+    width: 175px;
+}
+.navigation__image {
+    position
+} */
 .navigation__mainLink {
     list-style-image: url(../img/main_icon.png);
 }
@@ -63,7 +77,7 @@
 .main {
     width: 868;
     height: 954;
-    margin-left: 135px;
+    margin-left: 198px;
 }
 .breadcrumbs {
     font-family: "Roboto";
@@ -81,16 +95,20 @@
     font-style: bold;
     font-size: 49px;
 }
+
 .main__person {
     list-style: none;
     width: 256px;
     display: inline-block;
+    vertical-align: top;
 }
 .main__profile {
     text-align: center;
 }
 .main__foto {
-    border-radius: 150px;
+    border-radius: 100px;
+    height: 160px;
+    width: 160px;
 }
 .main__name {
     font-family: "Roboto";
