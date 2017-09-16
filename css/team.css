@@ -3,9 +3,10 @@
     max-width: 1100px;
     margin: auto;
 }
+
 .header {
     width: 1100px;
-    height: 76;
+    /* height: 76px; */
     background-color: #1c5bc3;
 }
 .header__logo {
@@ -145,8 +146,8 @@
 }
 .profile__photo {
     /* border-radius: 80px; */
-    /* height: 160px;
-    width: 160px; */
+    height: 160px;
+    width: 160px;
     display: block;
     clip-path: circle(80px at 50% 50%);
     margin-left: auto;
