@@ -145,10 +145,11 @@ div.header__hours:hover div {
     
 }
 .profile__foto {
-    border-radius: 100px;
+    /* border-radius: 80px; */
     height: 160px;
     width: 160px;
     display: block;
+    clip-path: circle(80px at 50% 50%);
     margin-left: auto;
     margin-right: auto;
 }
@@ -215,7 +216,8 @@ a.footer__loftschool {
     height: 20px;
     margin-left: 7px;
     background-color: #d2def3;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    clip-path: circle(10px at 50% 50%);
 }
 .footer__item:hover {
     background-color: #fff;
