@@ -3,7 +3,7 @@
     max-width: 1100px;
     margin: auto;
 }
-.header {
+.header__banner {
     width: 1100px;
     height: 76;
     background-color: #1c5bc3;
@@ -33,13 +33,33 @@
     padding-right: 21px;
     padding-bottom: 12px;
 }
-.header__hours{
-    color: #ffffff;
+.header__hours {
+    font-family: "Roboto";
+    height: 98px;
+    width: 181px;
+    background-image: url(../img/rounded-rectangle.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 14px;
+    float: right;
+    position: relative;
+    transform: translateY(-16px);
+}
+.header__work {
+    color: #1c5bc3;
+    font-weight: 700;
+    transform: translateY(40px);
+}
+.header__lunch {
+    color: #221f1f;
+    font-weight: 300;
+    transform: translateY(40px);
 }
 .navigation {
     float: left;
     height: 19px;
     list-style: none;
+    margin-left: -20px;
 }
 .navigation__name {
     font-family: "Roboto";
@@ -59,21 +79,32 @@
 .navigation__teamLink a {
     color: #221f1f;
 }
-/* .navigation__item {
-    width: 175px;
+.navigation__link p {
+    padding-top: 2px;
 }
-.navigation__image {
-    position
-} */
 .navigation__mainLink {
-    list-style-image: url(../img/main_icon.png);
+    background-image: url(../img/main_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    height: 18px;
 }
+
 .navigation__teamLink {
-    list-style-image: url(../img/team_iconActive.png);
+    background-image: url(../img/team_iconActive.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    height: 18px;
 }
 .navigation__feedLink {
-    list-style-image: url(../img/feed_icon.png);
+    background-image: url(../img/feed_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    height: 19px;
 }
+.navigation__feedLink p {
+    padding-top: 3px;
+}
+    
 .main {
     width: 868;
     height: 954;
