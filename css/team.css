@@ -33,7 +33,8 @@
     padding-right: 21px;
     padding-bottom: 12px;
 }
-.header__hours {
+
+.header__popup {
     font-family: "Roboto";
     height: 98px;
     width: 181px;
@@ -44,6 +45,10 @@
     float: right;
     position: relative;
     transform: translateY(-16px);
+    display: none;
+}
+div.header__hours:hover div {
+    display: block;
 }
 .header__work {
     color: #1c5bc3;
