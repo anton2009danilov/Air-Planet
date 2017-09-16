@@ -27,7 +27,9 @@
     padding-bottom: 4px;
 }
 .header__schedule {
-    color: #86A4EE;
+    /* color: #86A4EE; */
+    color: white;
+    opacity: .7;
     font-size: 14px;
     text-decoration: underline;
     padding-right: 21px;
