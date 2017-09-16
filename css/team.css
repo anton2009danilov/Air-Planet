@@ -3,7 +3,7 @@
     max-width: 1100px;
     margin: auto;
 }
-.header__banner {
+.header {
     width: 1100px;
     height: 76;
     background-color: #1c5bc3;
@@ -14,19 +14,19 @@
     margin-bottom: 19px;
     margin-left: 20px;
 }
-.header__info {
+.info {
     text-align: right;
     font-family: "Roboto";
     font-weight: 700;
     padding-top: 20px;
 }
-.header__phone {
+.phone {
     color: #ffffff;
     font-size: 21px;
     margin-right: 20px;
     padding-bottom: 4px;
 }
-.header__schedule {
+.schedule {
     /* color: #86A4EE; */
     color: white;
     opacity: .7;
@@ -36,7 +36,7 @@
     padding-bottom: 12px;
 }
 
-.header__popup {
+.popup__block {
     font-family: "Roboto";
     height: 98px;
     width: 181px;
@@ -49,15 +49,15 @@
     transform: translateY(-16px);
     display: none;
 }
-div.header__hours:hover div {
+.popup:hover div {
     display: block;
 }
-.header__work {
+.workHours {
     color: #1c5bc3;
     font-weight: 700;
     transform: translateY(40px);
 }
-.header__lunch {
+.lunch {
     color: #221f1f;
     font-weight: 300;
     transform: translateY(40px);
@@ -142,12 +142,11 @@ div.header__hours:hover div {
 }
 .person {
     text-align: center;
-    
 }
-.profile__foto {
+.profile__photo {
     /* border-radius: 80px; */
-    height: 160px;
-    width: 160px;
+    /* height: 160px;
+    width: 160px; */
     display: block;
     clip-path: circle(80px at 50% 50%);
     margin-left: auto;
