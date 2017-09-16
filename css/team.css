@@ -132,34 +132,38 @@ div.header__hours:hover div {
     font-size: 49px;
 }
 
-.main__person {
+.profile {
     list-style: none;
     width: 256px;
     display: inline-block;
     vertical-align: top;
 }
-.main__profile {
+.person {
     text-align: center;
+    
 }
-.main__foto {
+.profile__foto {
     border-radius: 100px;
     height: 160px;
     width: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.main__name {
+.person__name {
     font-family: "Roboto";
     font-weight: 700;
     font-style: bold;
     font-size: 18px;
 }
-.main__job {
+.person__position {
     font-family: "Roboto";
     font-weight: 700;
     font-style: bold;
     font-size: 14px;
     color: #1c5bc3;
 }
-.main__bio {
+.person__bio {
     font-family: "Roboto";
     font-weight: 300;
     font-size: 14px;
