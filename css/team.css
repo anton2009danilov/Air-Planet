@@ -29,16 +29,22 @@
     color: #fff;
     text-decoration: none;
 }
-/* .schedule {
-    color: white;
-    opacity: .7;
-    font-size: 14px;
-    text-decoration: underline;
-    padding-right: 21px;
-    padding-top: 0px;
-    padding-bottom: 17px;
-} */
-.schedule__button {
+.dropdown__content {
+    display: none;
+    /* position: absolute; */
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 10px 0px rgba(23,59,117,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    transform: translateY(20px);
+}
+
+.dropdown:hover .dropdown__content {
+    display: block;
+}
+
+.dropdown__button {
     background-color: #1c5bc3;
     color: white;
     opacity: .7;
@@ -47,31 +53,18 @@
     border: 0 #1c5bc3;
     transform: translateX(-16px);
 }
-.popupBox {
-    font-family: "Roboto";
-    height: 98px;
-    width: 181px;
-    background-image: url(../img/rounded-rectangle.svg);
-    background-repeat: no-repeat;
-    text-align: center;
-    font-size: 14px;
-    float: right;
-    position: relative;
-    transform: translateY(-16px);
-    display: none;
-}
 .schedule:hover div {
     display: block;
 }
 .workHours {
     color: #1c5bc3;
     font-weight: 700;
-    transform: translateY(40px);
+    /* transform: translateY(40px); */
 }
 .lunch {
     color: #221f1f;
     font-weight: 300;
-    transform: translateY(40px);
+    /* transform: translateY(40px); */
 }
 .navigation {
     position: absolute;
