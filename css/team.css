@@ -13,26 +13,23 @@
     margin-bottom: 21px;
 }
 .info {
+    padding-top: 15px;
+    padding-bottom: 14px;
     text-align: right;
     font-family: "Roboto";
     font-weight: 700;
-    height: 76px;
+    /* height: 76px; */
 }
 .phone {
     /* color: #ffffff; */
     font-size: 21px;
+    padding-right: 21px;
 }
 .info a:link, a:visited, a:hover, a:active {
     color: #fff;
     text-decoration: none;
 }
-.number {
-    color: #fff;
-    padding-top: 15px;
-    padding-right: 21px;
-    /* padding-bottom: 4px; */
-}
-.schedule {
+/* .schedule {
     color: white;
     opacity: .7;
     font-size: 14px;
@@ -40,8 +37,17 @@
     padding-right: 21px;
     padding-top: 0px;
     padding-bottom: 17px;
+} */
+.popup__button {
+    background-color: #1c5bc3;
+    color: white;
+    opacity: .7;
+    font-size: 14px;
+    text-decoration: underline;
+    border: 0 #1c5bc3;
+    transform: translateX(-16px);
 }
-.popup__block {
+.popupBox {
     font-family: "Roboto";
     height: 98px;
     width: 181px;
@@ -191,11 +197,11 @@
 a.footer__loftschool {
     color: #fff;
 }
-/* .footer__logo {
+.footer__logo {
     margin-top: 20px;
     margin-left: 25%;
     margin-bottom: 21px;
-} */
+}
 .footer__social {
     float: right;
     font-style: bold;
