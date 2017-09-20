@@ -1,11 +1,72 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.wrapper {
+    overflow: hidden;
+    /* min-width: 960px; */
+    /* min-height: 100%; */
+}
+.wrapper:after {
+    content: "";
+    display: block;
+    height: 77px;
+}
+/* .container {
+    position: relative;
+    min-height: 100%;
+    overflow: scroll;
+} */
+
+.container--navigation {
+    width: 200px;
+    margin: auto;
+}
+.container--main {
+    width: 940px;
+    margin: auto;
+}
+
+/* .container--main:after {
+    content: "";
+    display: block;
+    height: 77px;
+} */
+.container--footer {
+    /* width: 940px; */
+    margin: auto;
+    overflow: hidden;
+    height: 77px;
+    background-color: #1c5bc3;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+.clearfix:before,
+.clearfix:after {
+ content: "";
+ display: table;
+}
+.clearfix:after {
+ clear: both;
+}
 .header {
     background-color: #1c5bc3;
+    height: 76px;
 }
 .homeLink_header {
     float: left;
-    margin-top: 21px;
+    /* margin-top: 21px;
     margin-bottom: 19px;
-    margin-left: 20px;
+    margin-left: 20px; */
+    padding-top: 21px;
+    padding-bottom: 19px;
+    padding-left: 20px;
+
 }
 .homeLink_footer {
     margin-top: 20px;
@@ -22,6 +83,7 @@
 }
 .phone {
     /* color: #ffffff; */
+    float: right;
     font-size: 21px;
     padding-right: 21px;
 }
@@ -36,13 +98,17 @@
     font-size: 14px;
     text-decoration: underline;
     border: 0 #1c5bc3;
+    position: relative;
+    padding-right: 20px;
+    clear: right;
+    float: right;
     
-    /* transform: translateX(-16px); */
-    /* transform: translateY(40px); */
 }
 .dropdown__content {
     display: none;
     position: absolute;
+    top: 65px;
+    right: 20px;
     background-color: #fff;
     border-radius: 5px;
     width: 133px;
@@ -75,11 +141,11 @@
     padding-left: 5px;
 }
 .navigation {
-    position: absolute;
+    /* position: absolute; */
     float: left;
     height: 19px;
     list-style: none;
-    margin-left: -20px;
+    margin-left: -60px;
 }
 .navigation__name {
     font-family: "Roboto";
@@ -187,6 +253,8 @@
     background-color: #1c5bc3;
     font-family: "Roboto";
     color: #fff;
+    height: 77px;
+    margin-top: -77px;
 }
 .footer__copyright {
     font-weight: 300;
