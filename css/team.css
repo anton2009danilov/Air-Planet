@@ -2,19 +2,6 @@ html, body {
     width: 100%;
     height: 100%;
 }
-.wrapper {
-    overflow: hidden;
-    min-width: 1100px;
-    /* min-height: 100%; */
-}
-.wrapper:after {
-    content: "";
-    display: block;
-    height: 77px;
-}
-.container {
-    width: 1060px;
-}
 ul {
     padding: 0;
     margin: 0;
@@ -22,6 +9,31 @@ ul {
 li {
     list-style: none;
 }
+.wrapper {
+    overflow: hidden;
+    min-width: 1100px;
+    box-sizing: border-box;
+    /* min-height: 100%; */
+}
+.wrapper:after {
+    content: "";
+    display: block;
+    height: 77px;
+}
+
+.container {
+    width: 1060px;
+    margin: 0 auto;
+}
+.container--navigation {
+    /* width: 236px; */
+    margin: 0;
+}
+.container--main {
+    width: 824px;
+    margin: 0 auto;
+}
+
 .clearfix:before,
 .clearfix:after {
  content: "";
@@ -36,13 +48,7 @@ li {
 }
 .homeLink_header {
     float: left;
-    /* margin-top: 21px;
-    margin-bottom: 19px;
-    margin-left: 20px; */
-    padding-top: 21px;
-    padding-bottom: 19px;
-    padding-left: 20px;
-
+    margin-top: 21px;
 }
 .homeLink_footer {
     margin-top: 20px;
@@ -61,30 +67,34 @@ li {
     /* color: #ffffff; */
     float: right;
     font-size: 21px;
-    padding-right: 21px;
 }
 .info a:link, a:visited, a:hover, a:active {
     color: #fff;
     text-decoration: none;
 }
+.dropdown {
+    position: relative;
+}
 .dropdown__button {
+    font-family: roboto;
     background-color: #1c5bc3;
     color: white;
     opacity: .7;
     font-size: 14px;
+    font-weight: 700;
     text-decoration: underline;
     border: 0 #1c5bc3;
     position: relative;
-    padding-right: 20px;
+    left: 4px;
+    top: 3px;
     clear: right;
     float: right;
-    
 }
 .dropdown__content {
     display: none;
     position: absolute;
-    top: 65px;
-    right: 20px;
+    top: 48px;
+    right: -175px;
     background-color: #fff;
     border-radius: 5px;
     width: 133px;
@@ -117,7 +127,8 @@ li {
     padding-left: 5px;
 }
 .navigation {
-    /* position: absolute; */
+    /* position: relative; */
+    
     float: left;
     height: 19px;
     list-style: none;
@@ -167,9 +178,9 @@ li {
 }
     
 .main {
-    width: 868;
-    height: 954;
-    margin-left: 198px;
+    /* width: 868px; */
+    /* height: 954; */
+    margin-left: 0 auto;
 }
 .breadcrumbs {
     font-family: "Roboto";
@@ -241,7 +252,7 @@ li {
 a.footer__loftschool {
     color: #fff;
 }
-.footer__logo {
+.footer__homelink {
     margin-top: 20px;
     margin-left: 25%;
     margin-bottom: 21px;
