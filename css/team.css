@@ -192,6 +192,12 @@ li {
     list-style: none;
     display: inline;
 }
+.breadcrumbs__item:after {
+    content: "/ "
+}
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
 .main__title {
     font-family: "Roboto";
     font-weight: 700;
