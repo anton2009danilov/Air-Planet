@@ -9,6 +9,10 @@ ul {
 li {
     list-style: none;
 }
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
 .wrapper {
     overflow: hidden;
     min-width: 1100px;
@@ -25,15 +29,6 @@ li {
     width: 1060px;
     margin: 0 auto;
 }
-.container--navigation {
-    /* width: 236px; */
-    margin: 0;
-}
-.container--main {
-    width: 824px;
-    margin: 0 auto;
-}
-
 .clearfix:before,
 .clearfix:after {
  content: "";
@@ -45,6 +40,7 @@ li {
 .header {
     background-color: #1c5bc3;
     height: 76px;
+    margin-bottom: 44px;
 }
 .homeLink_header {
     float: left;
@@ -128,10 +124,11 @@ li {
 }
 .navigation {
     /* position: relative; */
-    
     float: left;
+    width: 140px;
     height: 19px;
     list-style: none;
+    height: 1000px;
 }
 .navigation__name {
     font-family: "Roboto";
@@ -157,20 +154,20 @@ li {
 .navigation__mainLink {
     background-image: url(../img/main_icon.png);
     background-repeat: no-repeat;
-    padding-left: 25px;
+    padding-left: 35px;
     height: 18px;
 }
 
 .navigation__teamLink {
     background-image: url(../img/team_iconActive.png);
     background-repeat: no-repeat;
-    padding-left: 25px;
+    padding-left: 35px;
     height: 18px;
 }
 .navigation__feedLink {
     background-image: url(../img/feed_icon.png);
     background-repeat: no-repeat;
-    padding-left: 25px;
+    padding-left: 35px;
     height: 19px;
 }
 .navigation__feedLink p {
@@ -178,15 +175,18 @@ li {
 }
     
 .main {
-    /* width: 868px; */
+    width: 870px;
     /* height: 954; */
-    margin-left: 0 auto;
+    float: left;
 }
 .breadcrumbs {
     font-family: "Roboto";
     font-weight: 300;
     font-style: italic;
+    line-height: 14px;
     font-size: 14px;
+    margin-left: 180px;
+    margin-bottom: 17px;
 }
 .breadcrumbs__item {
     list-style: none;
@@ -203,6 +203,8 @@ li {
     font-weight: 700;
     font-style: bold;
     font-size: 49px;
+    margin-left: 175px;
+    margin-bottom: 40px;
 }
 
 .profile {
@@ -210,6 +212,8 @@ li {
     width: 256px;
     display: inline-block;
     vertical-align: top;
+    /* margin-left: 50px; */
+    padding: 0 22px;
 }
 .person {
     text-align: center;
