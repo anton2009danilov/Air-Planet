@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
     font-size: 21px;
 }
-.info a:link, a:visited, a:hover, a:active {
+.info :link, .info :visited, .info :hover, .info :active {
     color: #fff;
     text-decoration: none;
 }
@@ -122,62 +122,58 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     width: 140px;
     list-style: none;
-    /* height: 1000px; */
     /* color: #1c5bc3 */
 }
+.navigation__item {
+    margin-bottom: 30px;
+    margin-left: -4px;
+}
+.navigation__link {
+    text-decoration: none;
+    color: #1c5bc3;
+}
+.navigation__link:hover .navigation__icon_plane {
+    background: url(../img/main_iconActive.png) center center no-repeat;
+}
+.navigation__link:hover .navigation__icon_cap {
+    background: url(../img/team_iconActive.png) center center no-repeat;
+}
+.navigation__link:hover .navigation__icon_star {
+    background: url(../img/feed_iconActive.png) center center no-repeat;
+}
+  
+.navigation__icon {
+    width: 28px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    }
+
 .navigation__name {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2.4px;
-}
-.navigation__item {
-    margin-bottom: 30px;
-}
-.navigation img {
-    width: 19px;
-}
-.navigation span {
+    display: inline-block;
+    vertical-align: middle;
     position: relative;
-    bottom: 3px;
-    padding-left: 15px;
-}
-.navigation a:link, a:visited {
-    text-decoration: none;
-    color: #1c5bc3;
-}
-.navigation a:active, a:hover {
-    text-decoration: none;
-    color: #4B2424;
-}
+    left: 10px;
+    }
+.navigation__icon_plane {
+    background: url(../img/main_icon.png) center center no-repeat;
+    }
+.navigation__icon_cap {
+    background: url(../img/team_icon.png) center center no-repeat;
+    }
+.navigation__icon_star {
+    background: url(../img/feed_icon.png) center center no-repeat;
+    }
 
-/* .navigation__link div {
-    padding-top: 2px;
-} */
-/* .navigation__mainLink {
-    background-image: url(../img/main_icon.png);
-    background-repeat: no-repeat;
-    padding-left: 35px;
-    margin-bottom: 32px;
-} */
-/* .navigation__teamLink {
-    background-image: url(../img/team_iconActive.png);
-    background-repeat: no-repeat;
-    padding-left: 35px;
-    margin-bottom: 32px;
-} */
-/* .navigation__teamLink a:hover, a:active {
-    color: #4B2424;
-} */
-/* .navigation__feedLink {
-    background-image: url(../img/feed_icon.png);
-    background-repeat: no-repeat;
-    padding-left: 35px;
-} */
-/* .navigation__feedLink div {
-    padding-top: 3px;
-} */
+.navigation__link:hover .navigation__name {
+    color: #221f1f;
+  }
+
 .breadcrumbs {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -266,7 +262,6 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     position: relative;
     top: 14px;
-    /* left: 50px; */
 }
 a.footer__loftschool {
     color: #fff;
