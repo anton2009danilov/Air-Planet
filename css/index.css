@@ -100,8 +100,8 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
     transform: translateY(20px);
     text-align: left;
+    /* background-image: url(..img/rounded-rectangle.svg); */
 }
-
 .dropdown:hover .dropdown__content {
     display: block;
 }
@@ -178,18 +178,23 @@ h1, h2, h3, h4, h5, h6 {
 
   /* End of header and navigation styles  */
 .main {
-    width: 820px;
+    width: 879px;
     margin-bottom: 77px;
     border: 2px solid red;
     float: right;
-    margin-right: 50px;
+    margin-top: -45px;
+    /* margin-right: 50px; */
+    position: relative;
+    margin-left: 50px;
 }
-
-.main__title {
+.main__header {
+    width: 879px;
     background-image: url(../img/clouds.png);
-    background-position-y: -76px;
+    background-position: center;
     background-color: #fff;
-    opacity: .75;
+    /* opacity: .75; */
+}
+.main__title {
     position: relative;
     top: -43px;
     height: 354px;
@@ -197,6 +202,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     font-size: 49px;
     font-weight: 700;
+    position: relative;
+    left: 66px;
+    top: 150px;
 }
 .company {
     width: 698px;
@@ -206,15 +214,16 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.66;
 }
 .booking {
-    width: 820px;
-    
+    width: 600px;
+    min-height: 78px;
+    padding: 20px 76px 16px 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.66;
     color: #fff;
     background-color:#1c5bc3;
-    text-align: center;
+    /* text-align: justify; */
 }
 
 .booking__link {
@@ -225,10 +234,25 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     font-weight: 700;
 }
+.partners {
+    width: 890px;
+}
 .partners__title {
     font-family: 'Roboto', sans-serif;
     font-size: 49px;
     font-weight: 700;
+}
+.partners__item {
+    display: inline-block;
+    width: 161px;
+    vertical-align: middle;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+.partners__link:hover .partners__icon_bmp {
+    background: url(../img/logo/bmp.png) center center no-repeat;
 }
   /* footer styles */
 
