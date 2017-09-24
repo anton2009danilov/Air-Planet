@@ -100,7 +100,8 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
     transform: translateY(20px);
     text-align: left;
-    /* background-image: url(..img/rounded-rectangle.svg); */
+    background-image: url(..img/rounded-rectangle.svg);
+    background-position: absolute;
 }
 .dropdown:hover .dropdown__content {
     display: block;
