@@ -1,0 +1,75 @@
+.header {
+    background-color: #1c5bc3;
+    height: 76px;
+    margin-bottom: 44px;
+}
+.homeLink_header {
+    float: left;
+    margin-top: 21px;
+}
+.info {
+    padding-top: 15px;
+    padding-bottom: 14px;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.phone {
+    float: right;
+    font-size: 21px;
+}
+.info :link, .info :visited, .info :hover, .info :active {
+    color: #fff;
+    text-decoration: none;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown__button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c5bc3;
+    color: white;
+    opacity: .7;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+    border: 0 #1c5bc3;
+    position: relative;
+    left: 4px;
+    top: 3px;
+    clear: right;
+    float: right;
+}
+.dropdown__content {
+    display: none;
+    position: absolute;
+    top: 48px;
+    right: -175px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 133px;
+    height: 46px;
+    box-shadow: 0px 0px 20px 2px rgba(23,59,117,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    transform: translateY(20px);
+    text-align: left;
+}
+
+.dropdown:hover .dropdown__content {
+    display: block;
+}
+
+.workHours {
+    color: #1c5bc3;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+.lunch {
+    font-size: 14px;
+    color: #221f1f;
+    font-weight: 300;
+    transform: translateY(6px);
+    padding-left: 5px;
+}

@@ -100,8 +100,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
     transform: translateY(20px);
     text-align: left;
-    background-image: url(..img/rounded-rectangle.svg);
-    background-position: absolute;
+    /* background-image: url(..img/rounded-rectangle.svg); */
 }
 .dropdown:hover .dropdown__content {
     display: block;
@@ -275,9 +274,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 a.footer__loftschool {
     color: #fff;
-    font-weight: 700;
-}
-.footer__loftschool strong {
     font-weight: 700;
 }
 .homelink--footer {
