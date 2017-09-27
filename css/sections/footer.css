@@ -18,6 +18,9 @@ a.footer__loftschool {
     color: #fff;
     font-weight: 700;
 }
+a.footer__loftschool:hover {
+    text-decoration: none;
+}
 .homelink--footer {
     position: relative;
     top: 17px;

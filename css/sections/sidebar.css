@@ -6,7 +6,7 @@
     /* color: #1c5bc3 */
 }
 .navigation__item {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
     margin-left: -4px;
 }
 .navigation__link {
@@ -40,6 +40,7 @@
     vertical-align: middle;
     position: relative;
     left: 10px;
+    top: 2px;
     }
 .navigation__icon_plane {
     background: url(../../img/main_icon.png) center center no-repeat;

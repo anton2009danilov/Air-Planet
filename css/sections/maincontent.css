@@ -34,3 +34,29 @@
     margin-bottom: 40px;
     margin-left: 40px;
 }
+
+.main--position {
+    width: 879px;
+    margin-bottom: 87px;
+    float: right;
+    margin-top: -186px;
+    margin-left: 50px;
+}
+.main__header {
+    width: 879px;
+    background-image: url(../../img/clouds.png);
+    /* background-position: center center; */
+    background-position-y: -76px;
+    background-color: #fff;
+    /* opacity: .75; */
+    margin-bottom: -40px;
+}
+.main__title--position {
+    position: relative;
+    top: -43px;
+    height: 354px;
+    width: 879px;
+    position: relative;
+    left: 26px;
+    top: 150px;
+}
