@@ -24,7 +24,7 @@
 .main {
     width: 920px;
     float: right;
-    /* margin-bottom: 24px; */
+    margin-bottom: 24px;
 }
 .main__title {
     font-family: 'Roboto', sans-serif;

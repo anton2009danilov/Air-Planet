@@ -55,7 +55,6 @@
     transform: translateY(20px);
     text-align: left;
     /* background-image: url(..img/rounded-rectangle.svg); */
-
 }
 
 .dropdown:hover .dropdown__content {

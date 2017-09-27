@@ -14,13 +14,13 @@
     color: #1c5bc3;
 }
 .navigation__link:hover .navigation__icon_plane {
-    background: url(../img/main_iconActive.png) center center no-repeat;
+    background: url(../../img/main_iconActive.png) center center no-repeat;
 }
 .navigation__link:hover .navigation__icon_cap {
-    background: url(../img/team_iconActive.png) center center no-repeat;
+    background: url(../../img/team_iconActive.png) center center no-repeat;
 }
 .navigation__link:hover .navigation__icon_star {
-    background: url(../img/feed_iconActive.png) center center no-repeat;
+    background: url(../../img/feed_iconActive.png) center center no-repeat;
 }
   
 .navigation__icon {
@@ -42,13 +42,13 @@
     left: 10px;
     }
 .navigation__icon_plane {
-    background: url(../img/main_icon.png) center center no-repeat;
+    background: url(../../img/main_icon.png) center center no-repeat;
     }
 .navigation__icon_cap {
-    background: url(../img/team_icon.png) center center no-repeat;
+    background: url(../../img/team_icon.png) center center no-repeat;
     }
 .navigation__icon_star {
-    background: url(../img/feed_icon.png) center center no-repeat;
+    background: url(../../img/feed_icon.png) center center no-repeat;
     }
 .navigation__link:hover .navigation__name {
     color: #221f1f;
