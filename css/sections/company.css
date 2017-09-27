@@ -4,14 +4,24 @@
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 300;
-    line-height: 1.61;
+    line-height: 1.71;
 }
-.company .text {
+.company p {
+    margin: 0;
+    /* margin-bottom: -14px; */
     white-space: pre-line;
 }
 /* .company__item {
     text-indent: 20px;
 } */
+.company li {
+    margin-left: 25px;
+}
+.company li::before {
+        content: "•";
+        padding-right: 15px;
+        margin-left: -25px;
+}
 .booking {
     width: 600px;
     min-height: 78px;
