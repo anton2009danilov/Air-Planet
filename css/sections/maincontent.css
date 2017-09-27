@@ -48,7 +48,8 @@
     /* background-position: center center; */
     background-position-y: -76px;
     background-color: #fff;
-    /* opacity: .75; */
+    filter: brightness(110%);
+    opacity: .8;
     margin-bottom: -40px;
 }
 .main__title--position {
