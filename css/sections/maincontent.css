@@ -8,8 +8,11 @@
     margin-bottom: 17px;
     margin-left: 40px;
 }
-.breadcrumbs__item {
-    list-style: none;
+.breadcrumbs a:hover {
+    text-decoration: none;
+}
+.breadcrumbs li {
+    /* list-style: none; */
     display: inline;
 }
 .breadcrumbs__item:after {
@@ -21,7 +24,7 @@
 .main {
     width: 920px;
     float: right;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
 }
 .main__title {
     font-family: 'Roboto', sans-serif;
