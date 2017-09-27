@@ -39,26 +39,36 @@
     font-weight: 700;
     color: #fff;
 }
+.booking__link:hover, .phone--booking:hover {
+    text-decoration: none;
+}
 .phone--booking {
     color: #fff;
     font-weight: 700;
 }
 .partners {
+    margin-top: 60px;
     width: 890px;
 }
 .partners__title {
     font-family: 'Roboto', sans-serif;
     font-size: 49px;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 .partners__item {
     display: inline-block;
     width: 161px;
     vertical-align: middle;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 65px;
     margin-left: 0px;
-    margin-right: 100px;
+    margin-right: 105px;
+}
+.partners__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* .partners__link:hover .partners__icon_bmp {
     background: url(../../img/logo/bmp.png) center center no-repeat;
