@@ -56,7 +56,15 @@
     text-align: left;
     /* background-image: url(..img/rounded-rectangle.svg); */
 }
-
+.dropdown__triangle {
+    position: absolute;
+    top: -22px;
+    right: 1px;
+    border-top: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #fff;
+    border-left: 12px solid transparent;
+}
 .dropdown:hover .dropdown__content {
     display: block;
 }
@@ -71,6 +79,6 @@
     font-size: 14px;
     color: #221f1f;
     font-weight: 300;
-    transform: translateY(6px);
+    transform: translateY(8px);
     padding-left: 5px;
 }
