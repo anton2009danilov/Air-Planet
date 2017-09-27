@@ -14,13 +14,16 @@
     color: #1c5bc3;
 }
 .navigation__link:hover .navigation__icon_plane {
-    background: url(../../img/main_iconActive.png) center center no-repeat;
+    background: url(../../img/nav-sprite.png) no-repeat;
+    background-position-x: -113px;
 }
 .navigation__link:hover .navigation__icon_cap {
-    background: url(../../img/team_iconActive.png) center center no-repeat;
+    background: url(../../img/nav-sprite.png) no-repeat;
+    background-position-x: -355px;
 }
 .navigation__link:hover .navigation__icon_star {
-    background: url(../../img/feed_iconActive.png) center center no-repeat;
+    background: url(../../img/nav-sprite.png) no-repeat;
+    background-position-x: -598px;
 }
   
 .navigation__icon {
@@ -43,13 +46,16 @@
     top: 2px;
     }
 .navigation__icon_plane {
-    background: url(../../img/main_icon.png) center center no-repeat;
-    }
+    background: url(../../img/nav-sprite.png) no-repeat;
+    background-position-x: 5px;
+}
 .navigation__icon_cap {
-    background: url(../../img/team_icon.png) center center no-repeat;
+    background: url(../../img/nav-sprite.png) no-repeat;
+    background-position-x: -232px;
     }
 .navigation__icon_star {
-    background: url(../../img/feed_icon.png) center center no-repeat;
+    background: url(../../img/nav-sprite.png) no-repeat;
+    background-position-x: -477px;
     }
 .navigation__link:hover .navigation__name {
     color: #221f1f;

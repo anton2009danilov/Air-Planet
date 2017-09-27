@@ -15,12 +15,12 @@
     text-indent: 20px;
 } */
 .company li {
-    margin-left: 25px;
+    margin-left: 40px;
 }
 .company li::before {
         content: "•";
-        padding-right: 15px;
-        margin-left: -25px;
+        padding-right: 17px;
+        margin-left: -29px;
 }
 .booking {
     width: 600px;
