@@ -21,6 +21,7 @@
 .logo--intro {
     margin-left: 23.18%;
     margin-right: 23.18%;
+    margin-bottom: 35px;
 }
 .button--intro {
     font-family: "Roboto", sans-serif;
@@ -34,4 +35,26 @@
     border: solid 1px #1c5bc3;
     border-radius: 3px;
     text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.button__text {
+    text-align: justify;
+    letter-spacing: 2.5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 3px;
+    background-image: url(../img/intro/plane-sprite.png) no-repeat;
+}
+.button__text::after {
+    content: "";
+}
+.button__img {
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 15px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(../img/intro/plane-sprite.png);
 }
