@@ -1,27 +1,32 @@
 @import url('./layout/base.css');
 .wrapper {
     position: absolute;
-    /* overflow: hidden; */
-    margin: 0;
     width: 100%;
     box-sizing: border-box;
-    /* height: 100%; */
+    /* margin-top: -40px;  */
+    height: 100%;
     background: url(../img/intro/intro-background.png) no-repeat;
     background-size: cover;
     /* text-align: center; */
+
 }
 .content {
-    position: absolute;
-    /* left: 40%; */
-    display: block;
-    top: 40%;
+    position: relative;
+    /* top: 300px; */
+    /* top: 40%; */
+    /* left: 40.5%; */
+    margin-right: 45%;
+    margin-bottom: 60%;
+    margin-top: 30%;
+    display: inline-block;
     width: 207px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
+    float: right;
 }
 .logo--intro {
     margin-left: 23.18%;
     margin-right: 23.18%;
-    margin-bottom: 35px;
+    margin-bottom: 37px;
 }
 .button--intro {
     font-family: "Roboto", sans-serif;
@@ -37,6 +42,7 @@
     text-align: center;
     display: inline-block;
     vertical-align: middle;
+    transition: 2s;
 }
 .button__text {
     text-align: justify;
@@ -44,7 +50,6 @@
     display: inline-block;
     vertical-align: middle;
     margin-top: 3px;
-    background-image: url(../img/intro/plane-sprite.png) no-repeat;
 }
 .button__text::after {
     content: "";
@@ -52,9 +57,26 @@
 .button__img {
     margin-top: 2px;
     margin-left: 2px;
-    width: 15px;
+    width: 17px;
     height: 14px;
     display: inline-block;
     vertical-align: middle;
     background-image: url(../img/intro/plane-sprite.png);
+    transition: 2s;
+    /* transition-delay: 1s; */
+}
+.button--intro:hover{
+    background-color: #1c5bc3;
+    color: #fff;
+}
+.button--intro:hover ~ .button__img {
+    background-image: none;
+    background-image: url(../img/intro/plane-sprite.png) no-repeat;
+    background-position-x: -50px;
+}
+
+.button--intro:hover .button__img {
+    /* background-image: none; */
+    background-image: url(../img/intro/plane-sprite.png) no-repeat;
+    background-position-x: -50px;
 }
