@@ -7,20 +7,21 @@
     line-height: 1.71;
 }
 .company p {
-    margin: 0;
-    /* margin-bottom: -14px; */
-    white-space: pre-line;
+    /* margin: 0; */
+    margin-bottom: -2px;
 }
-/* .company__item {
-    text-indent: 20px;
-} */
 .company li {
     margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: -5px;
 }
 .company li::before {
         content: "•";
         padding-right: 17px;
         margin-left: -29px;
+}
+p.text:last-of-type {
+    margin-bottom: 20px;
 }
 .booking {
     width: 600px;
@@ -77,6 +78,3 @@
 .partners__item:hover  {
     filter: grayscale(0%);
 }
-/* .partners__link:hover .partners__icon_bmp {
-    background: url(../../img/logo/bmp.png) center center no-repeat;
-} */
