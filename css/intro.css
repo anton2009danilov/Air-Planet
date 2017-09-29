@@ -62,7 +62,7 @@
     display: inline-block;
     vertical-align: middle;
     background-image: url(../img/intro/plane-sprite.png);
-    transition: 2s;
+    transition: 1.7s;
     /* transition-delay: 1s; */
 }
 .button--intro:hover{
