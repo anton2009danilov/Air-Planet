@@ -32,7 +32,6 @@
     opacity: .7;
     font-size: 14px;
     font-weight: 700;
-    text-decoration: underline;
     border: 0 #1c5bc3;
     position: relative;
     left: 4px;
@@ -66,7 +65,15 @@
     opacity: 0.9;
     bottom: 100%;
 }
+.dropdown:hover .dropdown__button {
+    text-decoration: underline;
+    opacity: 1;
+}
 .dropdown:hover .dropdown__content {
+    display: block;
+    left: initial;
+}
+.dropdown__button:active .dropdown__content {
     display: block;
     left: initial;
 }
