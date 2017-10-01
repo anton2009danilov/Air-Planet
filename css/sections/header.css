@@ -73,11 +73,6 @@
     display: block;
     left: initial;
 }
-.dropdown__button:active .dropdown__content {
-    display: block;
-    left: initial;
-}
-
 .workHours {
     color: #1c5bc3;
     font-size: 14px;
