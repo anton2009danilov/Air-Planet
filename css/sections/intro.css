@@ -1,5 +1,5 @@
 @import url('./layout/base.css');
-.wrapper {
+.wrapper--intro {
     position: absolute;
     width: 100%;
     box-sizing: border-box;
@@ -10,7 +10,7 @@
     /* text-align: center; */
 
 }
-.content {
+.content--intro {
     position: relative;
     /* top: 300px; */
     /* top: 40%; */
