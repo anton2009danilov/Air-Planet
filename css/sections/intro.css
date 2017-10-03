@@ -1,27 +1,23 @@
 @import url('./layout/base.css');
 .wrapper--intro {
-    position: absolute;
+    position: relative;
     width: 100%;
     box-sizing: border-box;
-    /* margin-top: -40px;  */
     height: 100%;
-    background: url(../img/intro/intro-background.png) no-repeat;
+    background: url(../../img/intro/intro-background.png) no-repeat;
     background-size: cover;
     /* text-align: center; */
 
 }
 .content--intro {
-    position: relative;
-    /* top: 300px; */
-    /* top: 40%; */
-    /* left: 40.5%; */
-    margin-right: 45%;
-    margin-bottom: 60%;
-    margin-top: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* text-transform: translate(50%,50%); */
     display: inline-block;
     width: 207px;
+    transform: translate(-50%,-50%);
     /* border: 3px solid red; */
-    float: right;
 }
 .logo--intro {
     margin-left: 23.18%;
@@ -61,7 +57,7 @@
     height: 14px;
     display: inline-block;
     vertical-align: middle;
-    background-image: url(../img/intro/plane-sprite.png);
+    background-image: url(../../img/intro/plane-sprite.png);
     transition: 1.7s;
     /* transition-delay: 1s; */
 }
@@ -71,12 +67,12 @@
 }
 .button--intro:hover ~ .button__img {
     background-image: none;
-    background-image: url(../img/intro/plane-sprite.png) no-repeat;
+    background-image: url(../../img/intro/plane-sprite.png) no-repeat;
     background-position-x: -50px;
 }
 
 .button--intro:hover .button__img {
     /* background-image: none; */
-    background-image: url(../img/intro/plane-sprite.png) no-repeat;
+    background-image: url(../../img/intro/plane-sprite.png) no-repeat;
     background-position-x: -50px;
 }
