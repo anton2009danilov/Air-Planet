@@ -25,19 +25,26 @@
     width: 920px;
     float: right;
     margin-bottom: 24px;
+<<<<<<< HEAD
     /* margin-top: -44px; */
+=======
+    margin-top: -44px;
+>>>>>>> 64892754936c6e102a43d320973deb3d6e25470a
 }
 .main__title {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-style: bold;
     font-size: 49px;
+<<<<<<< HEAD
 }
 .main__title--team {
    padding-left: 35px;
    margin-bottom: 40px;
 }
 .main__title--company {
+=======
+>>>>>>> 64892754936c6e102a43d320973deb3d6e25470a
     transform: translate(65px,150px)
 }
 
@@ -45,7 +52,10 @@
     width: 879px;
     margin-bottom: 87px;
     float: right;
+<<<<<<< HEAD
     margin-top: -44px;
+=======
+>>>>>>> 64892754936c6e102a43d320973deb3d6e25470a
 }
 .main__header {
     width: 879px;
