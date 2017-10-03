@@ -1,23 +1,19 @@
 @import url('./layout/base.css');
-.wrapper--intro {
+.introbackground {
     position: relative;
     width: 100%;
     box-sizing: border-box;
     height: 100%;
     background: url(../../img/intro/intro-background.png) no-repeat;
     background-size: cover;
-    /* text-align: center; */
-
 }
 .content--intro {
     position: absolute;
     top: 50%;
     left: 50%;
-    /* text-transform: translate(50%,50%); */
     display: inline-block;
     width: 207px;
     transform: translate(-50%,-50%);
-    /* border: 3px solid red; */
 }
 .logo--intro {
     margin-left: 23.18%;
