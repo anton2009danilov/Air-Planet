@@ -119,7 +119,7 @@
 
                     <div class="pagination">
                             <div class="pagination__current">Страница 1 из 7</div>
-                            <a class="pagination__item" href="#">&lt;</a>
+                            <a class="pagination__item" href="#"></a>
                             <a class="pagination__item active" href="#">1</a>
                             <a class="pagination__item" href="#">2</a>
                             <a class="pagination__item" href="#">3</a>
@@ -129,7 +129,57 @@
                             <a class="pagination__item" href="#">7</a>
                             <a class="pagination__item" href="#">&gt;</a>
                     </div>
-        
+                    <section class="post">
+                        <h3 class="post__title">Оставить отзыв</h3>
+                        <div class="post__left">
+                            <form action="" class="post__form">
+                                <p class="post__question">Ваше имя:</p>
+                                <input class="post__input" firsttype="text" name="name" placeholder="Андрей">
+                            </form>
+                        </div>
+                        
+                        <div class="post__right">
+                            <form action="" class="post__form">
+                                <p class="post__question">Ссылка на профиль VK:</p>
+                                <input class="post__input" type="text" name="VK page" placeholder="vk.com/example">
+                            </form>
+                        </div>
+                        
+                        <div class="post__middle">
+                            <form action="" class="post__form">
+                                <p class="post__question">Текст отзыва</p>
+                                <textarea class="post__input post__input--middle" name="message" id="" cols="30" rows="8"
+                                placeholder="Мне понравилось" >
+
+                                </textarea>    
+                            </form>
+                        </div>
+                        
+                        <div class="post__left">
+                            <form action="" class="post__form">
+                                <p class="post__question">Отображать фото в отзыве?</p>
+                                <input class="radio" type="radio" name="post__radio" id="yes">
+                                    <label class=radio__label for="yes">Да</label>
+                                <input class="radio" type="radio" name="post__radio" id="no">
+                                    <label class=radio__label for="no">Нет</label>
+                                <!-- <input class="post__input" firsttype="text" name="name" placeholder="Андрей"> -->
+                            </form>
+                        </div>
+
+                        <div class="post__right">
+                            <form action="">
+                                <input class="submit" type="submit" value="submit">
+                                <label for="" class="submit__label">
+                                    <button class="submit__button">
+                                        <div class="button__text">
+                                            Отправить
+                                        </div>
+                                        <div class="button__img"> </div>
+                                    </button>
+                                </label>
+                            </form> 
+                        </div>
+                    </section>
                 </main>
             </div>
         </div>
