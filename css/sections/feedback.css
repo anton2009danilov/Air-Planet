@@ -149,7 +149,7 @@
     height: 23px;
     /* vertical-align: middle; */
     background-color: #fff; 
-    /* display: none; */
+    display: none;
     position: absolute;
     left: 5px;
 }
@@ -202,7 +202,7 @@
 } */
 .radio__text {
     display: inline-block;
-    transform: translate(120%,0%);
+    transform: translate(25px,0);
     color: #221f1f;
 }
 .radio__label:hover .radio__text {
