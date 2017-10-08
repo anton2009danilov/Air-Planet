@@ -38,37 +38,41 @@
 }
 .button__text {
     text-align: justify;
-    letter-spacing: 2.5px;
+    letter-spacing: 2.4px;
     display: inline-block;
-    vertical-align: middle;
-    margin-top: 3px;
+    float: left;
+    /* vertical-align: middle; */
+    margin-left: 13px;
 }
 .button__text::after {
-    content: "";
-}
-.button__img {
-    margin-top: 2px;
-    margin-left: 2px;
-    width: 17px;
-    height: 14px;
-    display: inline-block;
+    content: url(../../img/intro/plane-active.png);
+    opacity: 0;
+    position: absolute;
+    left: 171px;
+    top: 242px;
     vertical-align: middle;
-    background-image: url(../../img/intro/plane-sprite.png);
-    transition: 1.7s;
-    /* transition-delay: 1s; */
+    transition: 2s;
+    z-index: 2;
 }
+.button__text::before {
+    opacity: 1;
+    content: url(../../img/intro/plane.png);
+    position: absolute;
+    top: 239px;
+    left: 171px;
+    margin-top: 3px;
+    transition: 2s;
+}
+
 .button--intro:hover{
     background-color: #1c5bc3;
     color: #fff;
 }
-.button--intro:hover ~ .button__img {
-    background-image: none;
-    background-image: url(../../img/intro/plane-sprite.png) no-repeat;
-    background-position-x: -50px;
+.button--intro:hover ::after {
+    opacity: 1;
+}
+.button--intro:hover ::before {
+    opacity: 0;
 }
 
-.button--intro:hover .button__img {
-    /* background-image: none; */
-    background-image: url(../../img/intro/plane-sprite.png) no-repeat;
-    background-position-x: -50px;
-}
+
