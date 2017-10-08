@@ -6,36 +6,12 @@
     /* color: #1c5bc3 */
 }
 .navigation__item {
-    margin-bottom: 30px;
+    margin-bottom: 31px;
 }
 .navigation__link {
     text-decoration: none;
     color: #1c5bc3;
 }
-
-
-/* .navigation__link:hover .navigation__icon_plane {
-    background: url(../../img/nav-sprite.png) no-repeat;
-    background-position-x: -113px;
-} */
-
-
-/* .navigation__link:hover .navigation__icon_cap {
-    background: url(../../img/nav-sprite.png) no-repeat;
-    background-position-x: -355px;
-} */
-/* .navigation__link:hover .navigation__icon_star {
-    background: url(../../img/nav-sprite.png) no-repeat;
-    background-position-x: -598px;
-} */
-  
-/* .navigation__icon {
-    width: 28px;
-    height: 20px;
-    display: inline-block;
-    vertical-align: middle;
-    } */
-
 .navigation__name {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -46,7 +22,7 @@
     position: relative;
     left: 29px;
     transition: color 1s;
-    padding-left: 10px;
+    padding-left: 7px;
 }
 
 .navigation__icon_plane,
@@ -81,9 +57,6 @@
         opacity: 1;
         left: 0px;
       }
-
-
-
 
 .navigation__icon_cap::before {
     content: url(../../img/nav/team_icon.png);

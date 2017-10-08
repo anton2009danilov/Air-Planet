@@ -35,7 +35,7 @@
 }
 .main__title--team {
    padding-left: 35px;
-   margin-bottom: 40px;
+   padding-bottom: 40px;
 }
 .main__title--company {
     transform: translate(65px,150px)

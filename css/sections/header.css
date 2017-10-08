@@ -1,6 +1,6 @@
 .header {
     background-color: #1c5bc3;
-    height: 76px;
+    height: 77px;
     margin-bottom: 44px;
 }
 .homeLink_header {
@@ -21,6 +21,7 @@
 .info :link, .info :visited, .info :hover, .info :active {
     color: #fff;
     text-decoration: none;
+    margin-top: 2px;
 }
 .dropdown {
     position: relative;
