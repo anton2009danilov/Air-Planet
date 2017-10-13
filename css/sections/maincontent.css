@@ -37,6 +37,9 @@
    padding-left: 35px;
    padding-bottom: 40px;
 }
+.main__title--feedback {
+   padding-left: 35px;
+}
 .main__title--company {
     transform: translate(65px,150px)
 }
