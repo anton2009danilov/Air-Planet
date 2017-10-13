@@ -173,8 +173,11 @@
 }
 .post__button {
     float: right;
+    margin-top: 17px;
+    position: relative;
+    /* width: 153px;
+    height: 45px; */
 }
-
 .radio {
     width: 23px;
     height: 23px;
@@ -256,25 +259,46 @@
     display: none;
 }
 .submit__button {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
-    width: 157px;
-    height: 48px;
+    width: 153px;
+    height: 45px;
     background-color: #1c5bc3;
     color: #fff;
     border: solid 1px #1c5bc3;
     border-radius: 3px;
     text-align: center;
     display: inline-block;
-    vertical-align: middle;
     transition: 2s;
-    position: relative;
-    /* top: 50%; */
-    left: 10%;
-
+    
 }
+.submit__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    position: absolute;
+    top: 40%;
+    left: 13%;
+}
+.submit__text::after {
+    content: url(../../img/intro/plane-active.png);
+    opacity: 1;
+    position: absolute;
+    left: 99px;
+    top: -2px;
+    /* vertical-align: middle; */
+    transition: 2s;
+}
+.submit__text::before {
+    opacity: 0;
+    content: url(../../img/intro/plane.png);
+    position: absolute;
+    left: 99px;
+    top: -2px;
+    transition: 2s;
+}
+
+
 .button__img {
     margin-top: 2px;
     margin-left: 2px;
@@ -290,7 +314,9 @@
     background-color: #fff ;
     color: #1c5bc3;
 }
-.submit__button:hover .button__img {
-    background-image: url(../../img/label/plane_blue.png) no-repeat;
-    background-position-x: 0px;
+.submit__button:hover ::after {
+    opacity: 0;
+}
+.submit__button:hover ::before {
+    opacity: 1;
 }
