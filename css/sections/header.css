@@ -73,6 +73,7 @@
 .dropdown:hover .dropdown__button {
     text-decoration: underline;
     opacity: 1;
+    margin-top: -1px;
 }
 .dropdown:hover .dropdown__content {
     display: block;

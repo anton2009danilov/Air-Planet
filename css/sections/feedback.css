@@ -145,8 +145,12 @@
     padding-left: 11px;
     border: none;
 }
+/* input[type=text]:focus {
+    outline-color: red;
+} */
 .post__input:focus {
-    border-color: #1c5bc3;
+    outline-color: #1c5bc3;
+    /* outline-width: thin; */
 }
 
 .post__middle {
@@ -216,7 +220,7 @@
     border-radius: 50%;
     color: #1c5bc3;
     position: relative;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 .circle {
