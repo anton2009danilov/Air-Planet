@@ -115,10 +115,11 @@
     background-color: #f5f5f5;
     padding-top: 43px;
     padding-right: 70px;
-    padding-bottom: 102px;
+    padding-bottom: 110px;
     padding-left: 69px;
     display: block;
     margin-left: 40px;
+    margin-bottom: 48px;
 }
 .post__title {
     margin-bottom: 4px;
