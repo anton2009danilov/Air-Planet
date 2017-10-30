@@ -12,6 +12,7 @@
     width: 160px;
     display: inline-block;
     clip-path: circle(80px at 50% 50%);
+    border-radius: 80px;
     margin-bottom: 14px;
 }
 .person__name {

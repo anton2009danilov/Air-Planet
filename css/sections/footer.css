@@ -51,6 +51,7 @@ a.footer__loftschool:hover {
     background-color: #d2def3;
     /* border-radius: 10px; */
     clip-path: circle(10px at 50% 50%);
+    border-radius: 10px;
     -webkit-transition:  1s;
     -moz-transition:  1s;
     transition:  1s;
